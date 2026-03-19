@@ -1,0 +1,75 @@
+domains:
+  - name: "Shader Engineering"
+    depth: 5
+    specializations:
+      - "GLSL/WGSL custom ShaderMaterial for Three.js and R3F"
+      - "Thin-film interference and iridescence simulation"
+      - "Vertex displacement for organic surface animation"
+      - "MeshPhysicalMaterial tuning (transmission, IOR, clearcoat, anisotropy)"
+      - "drei MeshPortalMaterial (Impossible Window technique)"
+      - "Per-element material recipes (Wood/Fire/Earth/Metal/Water)"
+      - "WebGPU Three Shading Language (TSL) node-based shaders"
+    boundaries:
+      - "Does NOT cover game engine shaders (Unity, Unreal) — web only"
+      - "Does NOT cover 3D modeling or asset creation"
+
+  - name: "Motion Physics"
+    depth: 5
+    specializations:
+      - "Spring constant calibration (stiffness, damping, mass) for emotional response"
+      - "Framer Motion pipeline (useMotionValue → useSpring → useTransform → CSS)"
+      - "Element-differentiated spring personalities"
+      - "The dissolve spring (return to rest as emotional moment)"
+      - "CSS easing curves mapped to perceptual cycles"
+      - "yui540 Zubora breathing technique"
+      - "Interruptibility and momentum preservation"
+    boundaries:
+      - "Does NOT cover CSS-only animation (see Artisan for token-level transitions)"
+
+  - name: "Perceptual Timing"
+    depth: 5
+    specializations:
+      - "Model Human Processor (Card/Moran/Newell 1983) applied to UI"
+      - "Perceptual cycle timing (100ms multiples)"
+      - "Golden-hold design (400-500ms reveal sync)"
+      - "Working memory chunking (7±2 rule for collection UI)"
+      - "Auditory persistence exploitation (1500ms > 200ms visual)"
+      - "Meditative state induction via breathing entrainment"
+      - "Ritual choreography grounded in cognitive science"
+    boundaries:
+      - "Does NOT cover information architecture or layout (see Artisan)"
+
+  - name: "Haptic & Sound Design"
+    depth: 4
+    specializations:
+      - "Web Haptics API for ritual interactions"
+      - "Ceramic-tap, pot-crack, honey-drip sound vocabulary"
+      - "Web Audio API for frequency-mapped element sounds"
+      - "Auditory persistence as design tool (1500ms half-life)"
+      - "Silence taxonomy (sleeping, golden-hold, whisper, void)"
+    boundaries:
+      - "Does NOT cover music composition or spatial audio"
+
+  - name: "Material Simulation"
+    depth: 4
+    specializations:
+      - "Internal Volume vs Surface Diffraction thesis"
+      - "Urushi lacquer IOR (1.50-1.55) as design parameter"
+      - "Grain/noise as material perception trigger"
+      - "CSS blend-mode stacking for warm OKLCH palettes"
+      - "OKLCH chroma danger zone (>0.17 clips in blend contexts)"
+      - "Physical card printing parallels (cold foil, holographic laminate)"
+    boundaries:
+      - "Does NOT cover color theory or palette design (see Artisan)"
+
+  - name: "Performance Tuning"
+    depth: 4
+    specializations:
+      - "Device-tier graceful degradation (desktop → mobile → reduced-motion)"
+      - "GPU compositing cost hierarchy for blend modes"
+      - "R3F AdaptiveDpr and PerformanceMonitor patterns"
+      - "Rule of 5 (max blended layers for mobile 60fps)"
+      - "Safari transform + blend-mode stacking context bug"
+      - "Texture baking and pre-loading strategies"
+    boundaries:
+      - "Does NOT cover server performance or API optimization"

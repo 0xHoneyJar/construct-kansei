@@ -1,0 +1,75 @@
+schema_version: 3
+
+name: "Kansei"
+slug: kansei
+version: 0.1.0
+
+description: "Perceptual engineering for digital craft. Shaders, springs, haptics, sound, timing — the discipline that makes digital things feel alive."
+short_description: "Perceptual engineering — shaders, springs, haptics, timing"
+
+author: 0xHoneyJar
+license: MIT
+type: skill-pack
+visibility: public
+
+domain:
+  - design
+  - development
+
+skills:
+  - slug: tuning-springs
+    path: skills/tuning-springs
+  - slug: crafting-shaders
+    path: skills/crafting-shaders
+  - slug: timing-rituals
+    path: skills/timing-rituals
+  - slug: material-physics
+    path: skills/material-physics
+
+commands:
+  - name: kansei
+    path: commands/kansei.md
+  - name: feel-audit
+    path: commands/feel-audit.md
+
+compose_with:
+  - slug: artisan
+    relationship: "Artisan specifies tokens. Kansei engineers how those tokens feel in motion, light, and touch."
+  - slug: the-easel
+    relationship: "The Easel records TDRs. Kansei produces perceptual evidence that informs them."
+  - slug: the-arcade
+    relationship: "The Arcade designs core loops. Kansei engineers the feel of each interaction within the loop."
+  - slug: k-hole
+    relationship: "K-Hole researches. Kansei applies research to shader code and spring constants."
+
+composition_paths:
+  writes:
+    - grimoires/kansei/
+  reads:
+    - grimoires/the-easel/tdr/
+    - grimoires/the-easel/vocabulary/
+
+repository:
+  url: https://github.com/0xHoneyJar/construct-kansei.git
+  homepage: https://constructs.network/constructs/kansei
+
+events:
+  emits:
+    - type: kansei.perceptual_audit.complete
+      description: "Emitted after a perceptual timing audit — reports MHP compliance"
+    - type: kansei.shader.recipe_created
+      description: "Emitted when a new element shader recipe is defined"
+  consumes:
+    - type: artisan.taste.token_updated
+      description: "Responds to token changes to verify perceptual compliance"
+
+identity:
+  persona: identity/persona.yaml
+  expertise: identity/expertise.yaml
+
+hooks:
+  post_install: scripts/install.sh
+
+quick_start:
+  command: /kansei
+  description: "Audit the perceptual feel of your interface — timing, motion, material, sound"
