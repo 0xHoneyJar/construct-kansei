@@ -4,8 +4,8 @@ name: "Kansei"
 slug: kansei
 version: 0.1.0
 
-description: "Perceptual engineering for digital craft. Shaders, springs, haptics, sound, timing — the discipline that makes digital things feel alive."
-short_description: "Perceptual engineering — shaders, springs, haptics, timing"
+description: "Translate feeling into engineering parameters. Spring constants, shader recipes, timing curves, haptic feedback patterns. Turn 'this feels too cold' into 'tension should be 150, not 200.' Quantifies the qualitative."
+short_description: "Feeling into physics"
 
 author: 0xHoneyJar
 license: MIT
