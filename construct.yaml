@@ -42,6 +42,13 @@ compose_with:
   - slug: k-hole
     relationship: "K-Hole researches. Kansei applies research to shader code and spring constants."
 
+streams:
+  reads:
+    - Intent
+    - Artifact
+  writes:
+    - Verdict
+
 composition_paths:
   writes:
     - grimoires/kansei/
