@@ -1,3 +1,10 @@
+---
+name: timing-rituals
+description: "Choreography design grounded in the Model Human Processor. Timing for reveals, ceremonies, transitions."
+allowed-tools: [Read, Grep, Glob]
+user-invocable: false
+---
+
 # Timing Rituals
 
 Choreography design grounded in the Model Human Processor.

@@ -1,3 +1,10 @@
+---
+name: crafting-shaders
+description: "R3F shader recipes per Wuxing element. From CSS prototype to WebGL production."
+allowed-tools: [Read, Grep, Glob]
+user-invocable: false
+---
+
 # Crafting Shaders
 
 R3F shader recipes per Wuxing element. From CSS prototype to WebGL production.

@@ -1,3 +1,10 @@
+---
+name: material-physics
+description: "Fresnel, IOR, transmission, thin-film interference recipes for digital materials."
+allowed-tools: [Read, Grep, Glob]
+user-invocable: false
+---
+
 # Material Physics
 
 Fresnel, IOR, transmission, thin-film interference recipes for digital materials.
