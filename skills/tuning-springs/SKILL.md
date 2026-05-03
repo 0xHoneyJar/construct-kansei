@@ -1,3 +1,10 @@
+---
+name: tuning-springs
+description: "Calibrate spring constants (stiffness, damping, mass) with perceptual justification."
+allowed-tools: [Read, Grep, Glob]
+user-invocable: false
+---
+
 # Tuning Springs
 
 Calibrate spring constants (stiffness, damping, mass) with perceptual justification.
